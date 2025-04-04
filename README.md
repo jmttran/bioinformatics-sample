@@ -1,6 +1,6 @@
 # bioinformatics-sample
 
-My project at HMS was centered around copy number variant (CNV) calling from scATAC-seq data. I personally curated all of my datasets from NCBI GEO, and benchmarked the CNV calling pipeline on different read depths to inform dataset and sample selection. This is a subset of some of the scripts I wrote to downsample the original cell line data used by the creators of the CNV caller and compare the downsampled calls to ground truth events. 
+My project at HMS was centered around copy number variant (CNV) calling from non-diseased scATAC-seq data. I personally curated all of my datasets from NCBI GEO, and benchmarked the CNV calling pipeline on different read depths to inform dataset and sample selection. This is a subset of some of the scripts I wrote to downsample the original cell line data used by the creators of the CNV caller and compare the downsampled calls to ground truth events. 
 
 The final downsampling visualization notebook creates figures demarcated with a dotted line that represents a depth level characteristic of many promising samples collected with similar assays that I had found. Based on these results, I excluded those datasets and studies from the rest of my project. 
 
